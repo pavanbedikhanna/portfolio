@@ -65,8 +65,13 @@ export default function Projects() {
     </div>
   );
 }
+type ProjectCardProps = {
+  title: string;
+  description: string;
+  image: string;
+};
 
-function ProjectCard({ title, description, image }) {
+function ProjectCard({ title, description, image }: ProjectCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
