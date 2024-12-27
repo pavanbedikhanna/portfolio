@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/portfolio',
+  basePath: '/portfolio', // your repository name
+  assetPrefix: '/portfolio/', // add this line
 };
 
 export default nextConfig;

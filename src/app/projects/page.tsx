@@ -7,43 +7,43 @@ export default function Projects() {
       title: "Historical document translation and restoration",
       description:
         "Built a document translation platform using Tesseract OCR, GPT-based translation, and image inpainting to maintain 95% visual accuracy of historical documents, deployed with Flask and React, improving handling documents with word count of 150 words.",
-      image: "/images/historical_translate.png",
+      image: "/portfolio/images/historical_translate.png",
     },
     {
       title: "Contextual Text Generation using Transformers",
       description:
         "Designed a text generation LLM using LangChain achieving a BLEU score of 0.85 and a perplexity of 15.3, and built a React-Flask app generating 500,000+ words, boosting user engagement by 40%.",
-      image: "/images/contextual.jpg",
+      image: "/portfolio/images/contextual.jpg",
     },
     {
       title: "Optimized Credit Score Classification",
       description:
         "Developed an ensemble model for(KNN, XG-Boost, Isolation Forest, and Random Forest)  using scikit-learn,matplotlib,Pandas achieving 86.59\% accuracy in credit score classification by integrating web-scraped financial data, and applied A/B testing to optimize performance and decision-making.",
-      image: "/images/credit-score.jpg",
+      image: "/portfolio/images/credit-score.jpg",
     },
     {
       title: "Optimizing Reading using Text Summarization",
       description:
         "Designed and implemented a text summarization app using React, Node.js, and Hugging Face Transformers. Created a custom model with 20% accuracy improvement, integrated REST API, and deployed on AWS EC2 with Docker.",
-      image: "/images/text-summarization.jpg",
+      image: "/portfolio/images/text-summarization.jpg",
     },
     {
       title: "Smart FinTech Dashboard",
       description:
         "Developed a real-time FinTech trading platform with Chart.js, React, and REST APIs, handling up to 5,000 daily requests. Built a scalable backend with Node.js, RabbitMQ, and MongoDB, achieving 99% uptime.",
-      image: "/images/fintech-dashboard.png",
+      image: "/portfolio/images/fintech-dashboard.png",
     },
     {
       title: "Caffe Manager",
       description:
         "Developed a web application using Node.js, MySQL, React, and JavaScript to streamline café operations, featuring a responsive front-end that boosted user engagement by 15%.",
-      image: "/images/caffe-manager.jpg",
+      image: "/portfolio/images/caffe-manager.jpg",
     },
     {
       title: "Performance Analysis of GA, PSO & ABC Algo in DWT-SVD Watermarking",
       description:
         "Proposed an optimized digital watermarking method, with GA reducing computing time by 12% compared to PSO and 80% to ABC. Published and presented a paper on this at ICCR 2021, Mysore, India.",
-      image: "/images/publication.jpg",
+      image: "/portfolio/images/publication.jpg",
     },
   ];
 
