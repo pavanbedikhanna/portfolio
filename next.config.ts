@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   // Ensure static files are handled correctly
   distDir: 'out',
   cleanDistDir: true,
