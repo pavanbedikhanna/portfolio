@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #242423;
+  --foreground: #dddddd
+
+  ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #242423;
+    --foreground: #dddddd
+
+    ;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+}
+
+::selection {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid var(--foreground);
+  white-space: nowrap;
+  margin: 0;
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width:34ch}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--foreground) }
+}
