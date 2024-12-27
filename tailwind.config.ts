@@ -12,7 +12,17 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        typing: "typing 3s steps(40, end) forwards",
+      },
+      keyframes: {
+        typing: {
+          from: { width: "0" },
+          to: { width: "max-width" },
+        },
+      },
     },
   },
+  
   plugins: [],
 } satisfies Config;
