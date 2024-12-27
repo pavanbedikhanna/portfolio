@@ -2,9 +2,9 @@ import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // This will catch all files in src
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -18,11 +18,10 @@ export default {
       keyframes: {
         typing: {
           from: { width: "0" },
-          to: { width: "max-width" },
+          to: { width: "100%" },  // Changed from "max-width" to "100%" for better compatibility
         },
       },
     },
   },
-  
   plugins: [],
 } satisfies Config;
