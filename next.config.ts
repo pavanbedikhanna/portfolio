@@ -7,9 +7,10 @@ const nextConfig: NextConfig = {
   },
   basePath: '/portfolio',
   assetPrefix: '/portfolio/',
-  // Ensure static files are handled correctly
-  distDir: 'out',
-  cleanDistDir: true,
+  // Make sure CSS is processed correctly
+  webpack: (config) => {
+    return config;
+  },
 };
 
 export default nextConfig;
