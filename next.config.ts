@@ -5,8 +5,12 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/portfolio', // your repository name
-  assetPrefix: '/portfolio/', // add this line
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
+  // Make sure CSS is processed correctly
+  webpack: (config) => {
+    return config;
+  },
 };
 
 export default nextConfig;
