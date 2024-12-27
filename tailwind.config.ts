@@ -1,10 +1,12 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}", // This will catch all files in src
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}", // Add if using pages directory
   ],
   theme: {
     extend: {
@@ -18,10 +20,12 @@ export default {
       keyframes: {
         typing: {
           from: { width: "0" },
-          to: { width: "100%" },  // Changed from "max-width" to "100%" for better compatibility
+          to: { width: "100%" },
         },
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
+
+export default config;
