@@ -5,12 +5,11 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
-  // Make sure CSS is processed correctly
-  webpack: (config) => {
-    return config;
-  },
+  basePath: '',
+  assetPrefix: '',
+  // Ensure static files are handled correctly
+  distDir: 'out',
+  cleanDistDir: true,
 };
 
 export default nextConfig;
