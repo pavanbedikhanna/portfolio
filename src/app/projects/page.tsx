@@ -19,25 +19,25 @@ export default function Projects() {
       title: "Optimized Credit Score Classification",
       description:
         "Developed an ensemble model for(KNN, XG-Boost, Isolation Forest, and Random Forest)  using scikit-learn,matplotlib,Pandas achieving 86.59\% accuracy in credit score classification by integrating web-scraped financial data, and applied A/B testing to optimize performance and decision-making.",
-      image: "/images/credit-score.jpg",
+      image: "/portfolio/images/credit-score.jpg",
     },
     {
       title: "Optimizing Reading using Text Summarization",
       description:
         "Designed and implemented a text summarization app using React, Node.js, and Hugging Face Transformers. Created a custom model with 20% accuracy improvement, integrated REST API, and deployed on AWS EC2 with Docker.",
-      image: "/images/text-summarization.jpg",
+      image: "/portfolio/images/text-summarization.jpg",
     },
     {
       title: "Smart FinTech Dashboard",
       description:
         "Developed a real-time FinTech trading platform with Chart.js, React, and REST APIs, handling up to 5,000 daily requests. Built a scalable backend with Node.js, RabbitMQ, and MongoDB, achieving 99% uptime.",
-      image: "/images/fintech-dashboard.png",
+      image: "/portfolio/images/fintech-dashboard.png",
     },
     {
       title: "Caffe Manager",
       description:
         "Developed a web application using Node.js, MySQL, React, and JavaScript to streamline café operations, featuring a responsive front-end that boosted user engagement by 15%.",
-      image: "/images/caffe-manager.jpg",
+      image: "/portfolio/images/caffe-manager.jpg",
     },
     {
       title: "Performance Analysis of GA, PSO & ABC Algo in DWT-SVD Watermarking",
